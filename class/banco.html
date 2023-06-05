@@ -8,16 +8,48 @@
 </head>
 <body>
     <style>
-        table ,td{
+        table, td{
             border-collapse: collapse;
             border: 1px solid;
             text-align: center;
-            padding: 10px 20px 10px 20px;
+            padding: 30px;
         }
-        
+        table th {
+            padding: 20px;
+        }
+        table tbody .cols1 td:nth-child(2n+1){
+            background:black;
+        }
+        table tbody .cols2 td:nth-child(2n+2){
+            background:black;
+        }
+        table tbody .cols3 td:nth-child(2n+1){
+            background:black;
+        }
+        table tbody .cols4 td:nth-child(2n+2){
+            background:black;
+        }
+        table tbody .cols5 td:nth-child(2n+1){
+            background:black;
+        }
+        table tbody .cols6 td:nth-child(2n+2){
+            background:black;
+        }
+        table tbody .cols7 td:nth-child(2n+1){
+            background:black;
+        }
+        table tbody .cols8 td:nth-child(2n+2){
+            background:black;
+        }
+        table thead {
+            background-color: rgb(238, 133, 77);
+        }
+        table tbody th:first-child{
+            background-color: rgb(238, 133, 77);
+        }
     </style>
     <table>
-        <tr>
+        <thead>
             <th></th>
             <th>1</th>
             <th>2</th>
@@ -27,9 +59,9 @@
             <th>6</th>
             <th>7</th>
             <th>8</th>
-        </tr>
-        <tr>
-            <td>A</td>
+        </thead>
+        <tr class="cols1">
+            <th>A</th>
             <td></td>
             <td></td>
             <td></td>
@@ -39,8 +71,8 @@
             <td></td>
             <td></td>
         </tr>
-        <tr>
-            <td>B</td>
+        <tr class="cols2">
+            <th>B</th>
             <td></td>
             <td></td>
             <td></td>
@@ -50,8 +82,8 @@
             <td></td>
             <td></td>
         </tr>
-        <tr>
-            <td>C</td>
+        <tr class="cols3">
+            <th>C</th>
             <td></td>
             <td></td>
             <td></td>
@@ -61,8 +93,8 @@
             <td></td>
             <td></td>
         </tr>
-        <tr>
-            <td>D</td>
+        <tr class="cols4">
+            <th>D</th>
             <td></td>
             <td></td>
             <td></td>
@@ -72,8 +104,8 @@
             <td></td>
             <td></td>
         </tr>
-        <tr>
-            <td>E</td>
+        <tr class="cols5">
+            <th>E</th>
             <td></td>
             <td></td>
             <td></td>
@@ -83,8 +115,8 @@
             <td></td>
             <td></td>
         </tr>
-        <tr>
-            <td>F</td>
+        <tr class="cols6">
+            <th>F</th>
             <td></td>
             <td></td>
             <td></td>
@@ -94,8 +126,8 @@
             <td></td>
             <td></td>
         </tr>
-        <tr>
-            <td>G</td>
+        <tr class="cols7">
+            <th>G</th>
             <td></td>
             <td></td>
             <td></td>
@@ -105,8 +137,8 @@
             <td></td>
             <td></td>
         </tr>
-        <tr>
-            <td>H</td>
+        <tr class="cols8">
+            <th>H</th>
             <td></td>
             <td></td>
             <td></td>
