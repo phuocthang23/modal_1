@@ -1,0 +1,23 @@
+.container{
+    margin-top: 60px;
+   text-align: center;
+}
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 50px;
+    width: 190px;
+    background-color: aquamarine;
+}
+h1 span {
+    color: aqua;
+}
+button{
+    padding: 15px;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+}

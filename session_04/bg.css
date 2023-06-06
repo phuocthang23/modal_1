@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin: 20px;
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 8px;
+    border: 2px solid rgba(172, 169, 169, 0.803);
+}
+.img-bg{
+    background-image:url(./asset/umbrellas-1281751_1280.png);
+    background-position: center;
+    background-size: cover;
+}
+.bg-grey{
+    background-color: rgba(20, 18, 18, 0.437);
+    height: 300px;
+    color: white;
+    text-align: center;
+     padding: 100px;
+}
+/* ^ tất cả các thuôc tính con (ko lấy tất cả) trong br-grey sẽ ăn theo  */
+.bg-grey > * {
+        margin-bottom: 20px;
+        text-align: center;
+}
+.btn-click button{
+    padding: 15px 30px 15px 30px;
+    border-radius: 5px;
+    border: none;
+    background-color:red;
+    color: white;
+    font-weight: 600;
+}
+
