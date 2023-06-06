@@ -1,0 +1,13 @@
+h1{
+    color: rgb(241, 191, 98);
+}
+.first-line{
+    color: blue;
+}
+.second-line{
+    color: rgb(218, 99, 119);
+}
+.tip{
+    background-color: rgb(252, 252, 183);
+    padding: 10px;
+}

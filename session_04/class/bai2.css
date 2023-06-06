@@ -1,0 +1,21 @@
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+body{
+    width: 800px;
+    margin: auto;
+}
+h1{
+    text-align: center;
+}
+figure img{
+    width: 100%;
+    
+}
+figure{
+    margin: 10px 0 10px 0;
+}
+ a {
+    color: blue;
+}
