@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 1020px;
+    margin: auto;
+    /* background-color: aquamarine; */
+    padding: 10px 0;
+}
+/* ^-----------------------------nav------------------------------ */
+nav{
+    display: flex;
+    justify-content: space-between;
+	align-items: center;
+}
+.group-nav{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+	align-items: center;
+    color: white;
+}
+.group-nav .logo{
+    font-size: 30px;
+}
+.nav-btn a{
+    text-decoration: none;
+    color: white;
+    margin-right: 15px;
+    font-size: 18;
+    
+}
+.group-login{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 250px;
+}
+.group-login a{
+    text-decoration: none;
+    color: white;
+    font-size: 18;
+    margin-right: 20px;
+}
+.group-login button{
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px ;
+    background-color: #56b1e7;
+    color: white;
+    cursor: pointer;
+}
+/* ^ ----------------------------main--------------------------- */
+main{
+    width: 1024px;
+    margin: auto;
+}
+.info{
+    /* background: #ef1313; */
+    text-align: center;
+    margin-top: 30px;
+    color: white;
+    
+    
+}
+.info > *{
+    margin: 30px 0;
+    text-transform: capitalize;
+}
+h4{
+    color: #56b1e7;
+}
+.info button {
+    padding: 20px 60px;
+    border: none;
+    border-radius: 5px ;
+    background-color: #56b1e7;
+    color: white;
+    cursor: pointer;
+}
+.bg-img{
+    background-image: url(../asset/mother-and-daughter-dancing-together-in-living-room-royalty-free-image-1588190015.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.bg-grey{
+    background-color: rgba(20, 18, 18, 0.437);
+    width: 100%;
+    min-height: 700px;
+}
+/* ^ -----------------------------ASIDE------------------------- */
+aside{
+    width: 1020px;
+    margin: auto;
+}
+article{
+    background-color: #56b1e7;
+    min-height: 200px;
+    width: 30%;
+    border: 2px solid #83616150;
+    color: white;
+}
+.icon img{
+    height:70px;
+    width: 70px;
+}
+.group-artical{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+hr{
+    width: 50px;
+    height: 3px;
+    size: 10px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    background-color: red;
+}
+.cover-content{
+    padding: 15px 25px 10px 25px;
+}
+aside{
+    margin-top: -180px;
+}
+article >h3,hr,p{
+    margin: 15px 0;
+}
+article:first-child,article:last-child{
+    background-color: white;
+    color: black;
+}
+.second{
+    width: 50px;
+    height: 3px;
+    size: 10px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    background-color: white;
+}
