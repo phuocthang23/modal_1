@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,600;1,400;1,500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+body{
+    background-color: #E4F2FD;
+}
+.side_bar{
+    min-height: 100px;
+    width: 260px;
+    background-color: #fff;
+    box-shadow: 0 5px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    padding-top: 20px;
+}
+.logo .bx-menu{
+    font-size: 24px;
+    margin-right: 14px;
+    color: #333;
+}
+.logo .logo_name{
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 22px;
+}
+/* ^ ------------menu------------ */
+.menu .menu_content{
+    height: 100%;
+    padding: 30px 16px ;
+}
+.menu_content li{
+    list-style: none;
+    
+}
+li a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 14px 12px;
+    border-radius: 8px;
+
+}
+a .icon{
+    margin-right: 14px;
+    font-size: 20px;
+    color: #707070;
+}
+a .link{
+    font-size: 16px;
+    color: #707070;
+    font-weight: 400;
+}
+a:hover{
+    background-color: #4070f4;
+}
+a:hover .icon, a:hover .link{
+    color: white;
+}
+.control-content{
+    margin-top: 80px;
+}
+/* ^----------------text side -------------------- */
+.container{
+    margin-top: 30px;
+    height: 100%;
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.line{
+    height: 400px;
+    width: 20px;
+    border-radius: 8px;
+    background-color: #4070f4;
+}
+.group-content{
+    margin-left: 100px;
+    width: 370px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.group-content > .title > p{
+    margin-bottom:40px;
+    margin-top: 40px;
+    font-size: 80px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.group-content > .title > p:first-child{
+    color:#4070f4
+}
