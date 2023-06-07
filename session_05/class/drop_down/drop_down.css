@@ -1,0 +1,41 @@
+.menu{
+    margin: auto;
+    width: 800px;
+    height: 200px;
+    background-color: aquamarine;
+    margin-top: 30px;
+    text-transform: capitalize;
+    text-align: center;
+    border: none;
+    border-radius: 10px; ;
+}
+.menu > a{
+    padding: 30px 50px;
+
+}
+.menu > div {
+    display: inline-block;
+    padding: 30px 20px;
+}
+.menu .view{
+    position: relative;
+}
+.drop-menu {
+    width: 90px;
+    min-height: 60px;
+    background-color: rgb(89, 229, 145);
+    display:none;
+    position:absolute;
+    /* top:200px; */
+    bottom: 10px;
+
+
+
+    left: 30px;
+}
+.drop-menu div{
+    padding: 15px;
+}
+.menu .view:hover .drop-menu {
+    display: block;
+  }
