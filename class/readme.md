@@ -1,0 +1,1 @@
+1 Map() --> trả về 1 mảng mới có, chiều dài bằng mảng cũ, có các phần tử là kết quả (return) của callback funtion trong mảng

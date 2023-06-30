@@ -1,0 +1,15 @@
+legend {
+    background-color: #000;
+    color: #fff;
+    padding: 3px 6px;
+  }
+  
+  input {
+    margin: 0.4rem;
+  }
+  body {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+  

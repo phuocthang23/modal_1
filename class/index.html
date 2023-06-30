@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <fieldset>
+        <legend> đổi c -> F</legend>
+        <p>Tạo hàm quy đổi độ C sang độ F và ngược  lại với công thức như sau:</p>
+        <label for="feet"> feet </label>
+        <input type="number" id="feet" />
+        <button onclick="changeCTof()">Run</button>
+        <input type="number" id="result" disabled />
+        <select id="choose">
+            <option value="1">C</option>
+            <option value="2">F</option>
+          </select>
+      </fieldset>
+    
+    <!-- &------------------------------------------- -->
+    <fieldset>
+        <legend> đổi c -> F</legend>
+        <p>Tạo hàm quy đổi độ C sang độ F và ngược  lại với công thức như sau:</p>
+        <label for="feet"> text </label>
+        <input type="text" id="text" />
+        <button onclick="changeUpper()">Run</button>
+        <input type="text" id="result_1" disabled />
+    </fieldset>
+    <!-- &----------------------------------------------- -->
+    <fieldset>
+        <legend> kiểm tra number </legend>
+        <p>Viết hàm kiểm tra xem ký tự nhập vào có phải là ký tự số không. Nếu là ký tự số hàm trả về true, ngược lại trả về false.</p>
+        <label for="feet"> text </label>
+        <input type="text" id="text_2" />
+        <button onclick="checkIsNumber()">Run</button>
+        <p id="result_2"></p>
+    </fieldset>
+    <!-- &------------------------------------------------ -->
+    <fieldset>
+        <legend> kiểm tra mang  </legend>
+        <p>Viết hàm kiểm tra xem ký tự nhập vào có phải là ký tự số không. Nếu là ký tự số hàm trả về true, ngược lại trả về false.</p>
+        <button onclick="ckeckTotal()">Run</button>
+        <p id="result_3"></p>
+      </fieldset>
+      <!-- &---------------------------------------------- -->
+      <fieldset>
+        <legend> sắp xếp thứ tự mảng  </legend>
+        <p>Viết hàm kiểm tra xem ký tự nhập vào có phải là ký tự số không. Nếu là ký tự số hàm trả về true, ngược lại trả về false.</p>
+        <button onclick="sort()">Run</button>
+        <p id="result_4"></p>
+      </fieldset>
+      <!-- &------------------------------------------------ -->
+    
+    <script src="js.js"></script>
+</body>
+</html>
