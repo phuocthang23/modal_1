@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+    }
+    fieldset {
+      background-color: #eeeeee;
+    }
+    
+    legend {
+      background-color: gray;
+      color: white;
+      padding: 5px 10px;
+    }
+    
+    input {
+      margin: 5px;
+      /* width: 100%; */
+    }
+    .mystyle{
+        background-color: coral;
+        padding: 16px;
+    }
+    </style>
+<body>
+    <fieldset>
+        <legend> bài 3 </legend>
+        <p> Tính diện tích hình vuông khi biết cạnh a.</p>
+        <button onclick="bai_3()" >Run</button>
+        <p id="show_1"></p>
+    </fieldset>
+
+    <!-- *----------------------------------------------- -->
+
+    <fieldset>
+        <legend> bài 6 </legend>
+        <p> Giải phương trình bậc 1 ax + b = 0</p>
+        <button onclick="bai_6()" >Run</button>
+        <p id="show_2"></p>
+    </fieldset>
+
+    <!-- *--------------------------------------------- -->
+
+    <fieldset>
+        <legend> đổi từ độ C sang độ F </legend>
+        <p> đổi từ độ C sang độ F </p>
+        <input type="number" id="celsius">
+        <button onclick="C_F()">Run</button>
+        <input type="number" id="show_3" disabled>
+    </fieldset>
+
+    <!-- *------------------------------------------------ -->
+    <fieldset>
+        <legend> for  </legend>
+        <p> console.log (1-100)</p>
+        <button onclick="bai_for()" >Run</button>
+        <!-- <p id="show_2"></p> -->
+    </fieldset>
+    
+    <script src="index.js"></script>
+</body>
+</html>
