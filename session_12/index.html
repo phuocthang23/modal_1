@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    body {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 30px;
+    }
+    fieldset {
+      background-color: #eeeeee;
+    }
+
+    legend {
+      background-color: coral;
+      color: white;
+      padding: 5px 10px;
+    }
+
+    input {
+      margin: 5px;
+      /* width: 100%; */
+    }
+    .mystyle {
+      background-color: coral;
+      padding: 16px;
+    }
+  </style>
+  <body>
+    <fieldset>
+      <legend>for</legend>
+      <p>console.log (1-100)</p>
+      <button onclick="bai_for()">Run</button>
+      <!-- <p id="show_2"></p> -->
+    </fieldset>
+    <!-- *------------------------------------------------------- -->
+    <fieldset>
+      <legend>for show chẳn lẻ</legend>
+      <p>console.log (1-100)</p>
+      <button onclick="bai_for_1()">Run</button>
+      <!-- <p id="show_2"></p> -->
+    </fieldset>
+    <!-- *--------------------------------------------------------- -->
+    <fieldset>
+      <legend>for tính tổng từ N</legend>
+      <p>tính tổng từ 0 -> N nhập từ người dùng</p>
+      <button onclick="bai_for_2()">Run</button>
+      <p id="show_2"></p>
+    </fieldset>
+
+    <!-- *------------------------------------------------------------ -->
+    <fieldset>
+      <legend>for tính tổng từ N</legend>
+      <p>tính tổng từ 0 -> 30 chia hết cho 7</p>
+      <button onclick="bai_for_3()">Run</button>
+      <p id="show_3"></p>
+    </fieldset>
+    <!-- *-------------------------------------------------------------- -->
+    <fieldset>
+      <legend>for tính tổng từ N</legend>
+      <p>
+        Hãy viết một chương trình in ra các số từ 1 đến 100. Nhưng nếu số chia
+        hết cho 3 thì in ra "Fizz", 5 thì in ra "Buzz" thay vì in ra số đó. Và
+        nếu số đó chia hết cho cả 3 và 5 thì in ra chữ "FizzBuzz"
+      </p>
+      <button onclick="bai_for_4()">Run</button>
+      <p id="show_4"></p>
+    </fieldset>
+    <script src="index.js"></script>
+  </body>
+</html>
