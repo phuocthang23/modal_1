@@ -1,0 +1,50 @@
+
+legend {
+  background-color: #000;
+  color: #fff;
+  padding: 3px 6px;
+}
+
+input {
+  margin: 0.4rem;
+}
+body {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+.table {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.add{
+    padding: 10px 20px;
+    background-color: greenyellow;
+}
+input[type="text"]{
+    margin-top: 20px;
+    height: 30px;
+    width: 300px;
+}
+.cover{
+    height: 80px;
+    width: 450px;
+    background-color: rgb(216, 214, 214);
+}
+.title{
+    display: flex;
+    justify-content: space-between;
+}
+table tr td button{
+    margin: 10px 50px;
+}
+.coverUpdate {
+  display: none;
+}
+
+.cover {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

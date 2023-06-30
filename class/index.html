@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=á, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <fieldset>
+      <legend>hiển thị các số nguyên tố</legend>
+      <input type="text" id="prime" />
+      <button onclick="inputValue()">Run</button>
+      <div id="show"></div>
+    </fieldset>
+
+    <!-- &---------------------------------chuyển đổi ----------------------- -->
+    <fieldset>
+      <legend>hiển thị các số nguyên tố</legend>
+      <p>đổi từ meeter ra feet và ngược lại</p>
+      <label for="feet"> feet </label>
+      <input type="number" id="feet" />
+      <button onclick="takeVaule()">Run</button>
+      <input type="number" id="result_2" disabled />
+      <table id="showFeet"></table>
+      <div id="result"></div>
+    </fieldset>
+    <!-- &------------------------------vẽ hình tròn---------------------- -->
+    <fieldset>
+      <legend>vẽ hình</legend>
+      <button onclick="inputRol()">Run</button>
+      <div id="show_draw"></div>
+      <div id="show_square"></div>
+      <div id="show_rec"></div>
+    </fieldset>
+
+    <!-- &------------------------------------------------------------------ -->
+    <fieldset>
+      <legend> sản phẩm </legend>
+      <div class="cover">
+        <input type="text" id="search" />
+        <button class="add" onclick="handleSearch()">Search</button>
+      </div>
+      <div class="cover">
+        <input type="text" id="input" />
+        <button class="add" onclick="handleAdd()">ADD</button>
+      </div>
+      <div class="coverUpdate">
+        <input type="text" id="update" />
+        <button class="add" onclick="btnUpdate()">update</button>
+      </div>
+      <h3>Display All Product</h3>
+      <div class="title"></div>
+      <table id="table_product">
+        <tr>
+          <td>sony xeperia</td>
+          <td><button>edit</button></td>
+          <td><button>delete</button></td>
+        </tr>
+        <tr>
+          <td>sony xeperia</td>
+          <td><button>edit</button></td>
+          <td><button>delete</button></td>
+        </tr>
+        <tr>
+          <td>sony xeperia</td>
+          <td><button>edit</button></td>
+          <td><button>delete</button></td>
+        </tr>
+        <tr>
+          <td>sony xeperia</td>
+          <td><button>edit</button></td>
+          <td><button>delete</button></td>
+        </tr>
+        <tr>
+          <td>sony xeperia</td>
+          <td><button>edit</button></td>
+          <td><button>delete</button></td>
+        </tr>
+      </table>
+    </fieldset>
+    <script src="js.js"></script>
+  </body>
+</html>
