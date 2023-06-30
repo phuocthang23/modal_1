@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <style>
+      legend {
+        background-color: #000;
+        color: #fff;
+        padding: 3px 6px;
+      }
+
+      input {
+        margin: 0.4rem;
+      }
+      body {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+      }
+    </style>
+
+    <fieldset>
+      <legend>for tính tổng từ N</legend>
+      <p>tính tổng từ 0 -> 30 chia hết cho 7</p>
+      <button onclick="bai_for()">Run</button>
+      <div id="show"></div>
+    </fieldset>
+
+    <fieldset>
+      <legend>for - break</legend>
+      <p>tính tổng từ 0 -> 30 chia hết cho 7</p>
+      <button onclick="bai_for_1()">Run</button>
+      <div id="show_1"></div>
+    </fieldset>
+
+    <fieldset>
+      <legend>for - 2 vong lap bang cuu chuong</legend>
+      <table id="show_2"></table>
+      <button onclick="bai_for_2()">Run</button>
+    </fieldset>
+    <!-- ?---------------------------------------------------- -->
+    <fieldset>
+      <legend>lap 30 lap so chia het cho 7</legend>
+      <p id="show_3"></p>
+      <button onclick="bai_for_3()">Run</button>
+    </fieldset>
+
+    <!-- ?------------------------------------------------------ -->
+    <fieldset>
+      <legend>hiện thị các số bình phương mà chẳn</legend>
+      <p>
+        Viết chương trình hiển thị bình phương của số nguyên từ 2 🡪 N nhưng hiển
+        thị các kết quả chia hết cho 2.. N nhập từ người dùng. Nếu N lớn hơn 2
+        hoặc N > 100, thông báo người dùng nhập lại.
+      </p>
+      <button onclick="bai_for_4()">Run</button>
+      <p id="show_4"></p>
+    </fieldset>
+    <!-- ?---------------------------------------------------------- -->
+    <fieldset>
+      <legend>hiện thị các số chẳn rồi bình phương</legend>
+      <p>
+        Viết chương trình hiển thị bình phương của số chẵn từ 2 🡪 N. N nhập từ
+        người dùng. Nếu N lớn hơn 2 hoặc N > 100, thông báo người dùng nhập lại.
+      </p>
+      <button onclick="bai_for_5()">Run</button>
+      <p id="show_5"></p>
+    </fieldset>
+    <!-- ?----------------------------------------------------------- -->
+    <fieldset>
+      <legend>đổi màu console.log</legend>
+      <p>
+        Viết chương trình hiển thị thay đổi 10 màu sắc ngẫu nhiên khi hiển thị
+        console.log()
+      </p>
+      <button onclick="bai_for_6()">Run</button>
+      <p id="show_6"></p>
+    </fieldset>
+    <!-- ?-------------------------------------------------------------- -->
+    <fieldset>
+        <legend>số nguyên tố</legend>
+        <p>
+          kiểm tra số nguyên tố
+        </p>
+        <button onclick="bai_for_7()">Run</button>
+        <p id="show_7"></p>
+      </fieldset>
+    <!-- ?---------------------------------------------------------------- -->
+    <fieldset>
+        <legend> số hoàn hảo </legend>
+        <p>
+         kiểm tra N có phải số hoàn hảo ko 
+        </p>
+        <button onclick="bai_for_8()">Run</button>
+        <p id="show_8"></p>
+      </fieldset>
+      <!-- ?---------------------------------------------------------------- -->
+      <fieldset>
+        <legend> tìm số nguyên tố từ N  </legend>
+        <p>
+         kiểm tra N có phải số hoàn hảo ko 
+        </p>
+        <button onclick="bai_for_9()">Run</button>
+        <p id="show_9"></p>
+      </fieldset>
+      <!-- ?---------------------------------------------------------------- -->
+      <fieldset>
+        <legend> tìm số nguyên tố từ N  </legend>
+        <p>
+         kiểm tra N có phải số hoàn hảo ko 
+        </p>
+        <button onclick="bai_for_10()">Run</button>
+        <p id="show_10"></p>
+        <p id="show_10_1"></p>
+        <p id="show_10_2"></p>
+        <p id="show_10_3"></p>
+        <p id="show_10_4"></p>
+      </fieldset>
+      <!-- ?--------------------------------------------------------------- -->
+      <fieldset>
+        <legend> đếm 30 lần số chia hết cho 5  </legend>
+        <p>
+        </p>
+        <button onclick="bai_for_11()">Run</button>
+        <p id="show_11"></p>
+      </fieldset>
+      <!-- ?--------------------------------------------------------------- -->
+      <fieldset>
+        <legend> vẽ hình chữ nhật  </legend>
+        <p>
+        </p>
+        <button onclick="bai_for_12()">Run</button>
+        <p id="show_12"></p>
+      </fieldset>
+      <!-- ?------------------------------------------------------------------- -->
+      <fieldset>
+        <legend> vẽ hình trái tim  </legend>
+        <p>
+        </p>
+        <button onclick="bai_for_13()">Run</button>
+        <p id="show_13"></p>
+      </fieldset>
+      <!-- ?--------------------------------------------------------------------- -->
+      <fieldset>
+        <legend> vẽ hình hình tròn  </legend>
+        <div id="circle"></div>
+        <button onclick="bai_for_14()">Run</button>
+        <p id="show_14"></p>
+      </fieldset>
+    <script src="index.js"></script>
+  </body>
+</html>
